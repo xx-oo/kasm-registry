@@ -1,27 +1,27 @@
 {
-  "friendly_name": "Chromium",
-  "image_src": "chromium.png",
-  "description": "Chromium is a free and open-source browser, primarily developed and maintained by Google.",
+  "friendly_name": "Blender",
+  "image_src": "blender.png",
+  "description": "Blender is the Free and Open Source 3D creation suite. It supports the entirety of the 3D pipeline modeling, sculpting, rigging, 3D and 2D animation, simulation, rendering, compositing, motion tracking and video editing.",
   "cores": 2,
   "memory": 2768,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
   "docker_registry": "https://docker.cnb.cool/",
   "categories": [
-    "Browser"
+    "Multimedia",
+    "Development"
   ],
   "require_gpu": false,
   "enabled": true,
   "image_type": "Container",
   "architecture": [
-    "amd64",
-    "arm64"
+    "amd64"
   ],
   "compatibility": [
     {
       "version": "1.16.x",
-      "image": "docker.cnb.cool/hug/docker/chromium:1.16.1-rolling-daily",
-      "uncompressed_size_mb": 2643,
+      "image": "docker.cnb.cool/hug/docker/blender:1.16.1-rolling-daily",
+      "uncompressed_size_mb": 4030,
       "available_tags": [
         "develop",
         "1.16.0",
@@ -35,8 +35,8 @@
     },
     {
       "version": "1.17.0",
-      "image": "docker.cnb.cool/hug/docker/chromium:1.17.0-rolling-daily",
-      "uncompressed_size_mb": 2856,
+      "image": "docker.cnb.cool/hug/docker/blender:1.17.0-rolling-daily",
+      "uncompressed_size_mb": 3935,
       "available_tags": [
         "develop",
         "1.17.0",
@@ -46,8 +46,8 @@
     },
     {
       "version": "1.18.0",
-      "image": "docker.cnb.cool/hug/docker/chromium:1.18.0-rolling-daily",
-      "uncompressed_size_mb": 2856,
+      "image": "docker.cnb.cool/hug/docker/blender:1.18.0-rolling-daily",
+      "uncompressed_size_mb": 3935,
       "available_tags": [
         "develop"
       ]

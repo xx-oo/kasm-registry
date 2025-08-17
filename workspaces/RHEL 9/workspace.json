@@ -1,14 +1,16 @@
 {
-  "friendly_name": "Chromium",
-  "image_src": "chromium.png",
-  "description": "Chromium is a free and open-source browser, primarily developed and maintained by Google.",
+  "friendly_name": "RHEL 9",
+  "image_src": "redhat.svg",
+  "description": "Red Hat Enterprise Linux 9 (RHEL 9) is a Linux distribution developed by Red Hat, Inc., a subsidiary of IBM. It is designed for the commercial market and is known for its stability, security, and support.",
   "cores": 2,
   "memory": 2768,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
   "docker_registry": "https://docker.cnb.cool/",
   "categories": [
-    "Browser"
+    "Desktop",
+    "Productivity",
+    "Development"
   ],
   "require_gpu": false,
   "enabled": true,
@@ -20,13 +22,10 @@
   "compatibility": [
     {
       "version": "1.16.x",
-      "image": "docker.cnb.cool/hug/docker/chromium:1.16.1-rolling-daily",
-      "uncompressed_size_mb": 2643,
+      "image": "docker.cnb.cool/hug/docker/rhel-9-desktop:1.16.1-rolling-daily",
+      "uncompressed_size_mb": 8908,
       "available_tags": [
         "develop",
-        "1.16.0",
-        "1.16.0-rolling-weekly",
-        "1.16.0-rolling-daily",
         "1.16.1",
         "1.16.1-rolling-weekly",
         "1.16.1-rolling-daily",
@@ -35,8 +34,8 @@
     },
     {
       "version": "1.17.0",
-      "image": "docker.cnb.cool/hug/docker/chromium:1.17.0-rolling-daily",
-      "uncompressed_size_mb": 2856,
+      "image": "docker.cnb.cool/hug/docker/rhel-9-desktop:1.17.0-rolling-daily",
+      "uncompressed_size_mb": 8908,
       "available_tags": [
         "develop",
         "1.17.0",
@@ -46,8 +45,8 @@
     },
     {
       "version": "1.18.0",
-      "image": "docker.cnb.cool/hug/docker/chromium:1.18.0-rolling-daily",
-      "uncompressed_size_mb": 2856,
+      "image": "docker.cnb.cool/hug/docker/rhel-9-desktop:1.18.0-rolling-daily",
+      "uncompressed_size_mb": 8654,
       "available_tags": [
         "develop"
       ]

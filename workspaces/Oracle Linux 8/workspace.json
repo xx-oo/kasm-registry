@@ -1,14 +1,16 @@
 {
-  "friendly_name": "Chromium",
-  "image_src": "chromium.png",
-  "description": "Chromium is a free and open-source browser, primarily developed and maintained by Google.",
+  "friendly_name": "Oracle Linux 8",
+  "image_src": "oracle-linux.png",
+  "description": "Oracle Linux is a highly performant and secure operating system that provides a 100% application binary compatible alternative to RHEL and CentOS.",
   "cores": 2,
   "memory": 2768,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
   "docker_registry": "https://docker.cnb.cool/",
   "categories": [
-    "Browser"
+    "Desktop",
+    "Productivity",
+    "Development"
   ],
   "require_gpu": false,
   "enabled": true,
@@ -20,8 +22,8 @@
   "compatibility": [
     {
       "version": "1.16.x",
-      "image": "docker.cnb.cool/hug/docker/chromium:1.16.1-rolling-daily",
-      "uncompressed_size_mb": 2643,
+      "image": "docker.cnb.cool/hug/docker/oracle-8-desktop:1.16.1-rolling-daily",
+      "uncompressed_size_mb": 6863,
       "available_tags": [
         "develop",
         "1.16.0",
@@ -35,8 +37,8 @@
     },
     {
       "version": "1.17.0",
-      "image": "docker.cnb.cool/hug/docker/chromium:1.17.0-rolling-daily",
-      "uncompressed_size_mb": 2856,
+      "image": "docker.cnb.cool/hug/docker/oracle-8-desktop:1.17.0-rolling-daily",
+      "uncompressed_size_mb": 9779,
       "available_tags": [
         "develop",
         "1.17.0",
@@ -46,8 +48,8 @@
     },
     {
       "version": "1.18.0",
-      "image": "docker.cnb.cool/hug/docker/chromium:1.18.0-rolling-daily",
-      "uncompressed_size_mb": 2856,
+      "image": "docker.cnb.cool/hug/docker/oracle-8-desktop:1.18.0-rolling-daily",
+      "uncompressed_size_mb": 9779,
       "available_tags": [
         "develop"
       ]

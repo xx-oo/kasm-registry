@@ -1,15 +1,13 @@
 {
-  "friendly_name": "Chromium",
-  "image_src": "chromium.png",
-  "description": "Chromium is a free and open-source browser, primarily developed and maintained by Google.",
+  "friendly_name": "Terminal",
+  "image_src": "terminal.png",
+  "description": "Xfce Terminal is a lightweight and easy to use terminal emulator application with many advanced features including drop down, tabs, unlimited scrolling, full colors, fonts, transparent backgrounds, and more.",
   "cores": 2,
   "memory": 2768,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
   "docker_registry": "https://docker.cnb.cool/",
-  "categories": [
-    "Browser"
-  ],
+  "categories": null,
   "require_gpu": false,
   "enabled": true,
   "image_type": "Container",
@@ -20,8 +18,8 @@
   "compatibility": [
     {
       "version": "1.16.x",
-      "image": "docker.cnb.cool/hug/docker/chromium:1.16.1-rolling-daily",
-      "uncompressed_size_mb": 2643,
+      "image": "docker.cnb.cool/hug/docker/terminal:1.16.1-rolling-daily",
+      "uncompressed_size_mb": 2797,
       "available_tags": [
         "develop",
         "1.16.0",
@@ -35,8 +33,8 @@
     },
     {
       "version": "1.17.0",
-      "image": "docker.cnb.cool/hug/docker/chromium:1.17.0-rolling-daily",
-      "uncompressed_size_mb": 2856,
+      "image": "docker.cnb.cool/hug/docker/terminal:1.17.0-rolling-daily",
+      "uncompressed_size_mb": 3114,
       "available_tags": [
         "develop",
         "1.17.0",
@@ -46,8 +44,8 @@
     },
     {
       "version": "1.18.0",
-      "image": "docker.cnb.cool/hug/docker/chromium:1.18.0-rolling-daily",
-      "uncompressed_size_mb": 2856,
+      "image": "docker.cnb.cool/hug/docker/terminal:1.18.0-rolling-daily",
+      "uncompressed_size_mb": 3114,
       "available_tags": [
         "develop"
       ]

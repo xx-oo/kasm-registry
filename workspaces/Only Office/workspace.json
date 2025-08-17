@@ -1,27 +1,27 @@
 {
-  "friendly_name": "Chromium",
-  "image_src": "chromium.png",
-  "description": "Chromium is a free and open-source browser, primarily developed and maintained by Google.",
+  "friendly_name": "Only Office",
+  "image_src": "only-office.png",
+  "description": "ONLYOFFICE offers a secure online office suite highly compatible with MS Office formats.",
   "cores": 2,
   "memory": 2768,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
   "docker_registry": "https://docker.cnb.cool/",
   "categories": [
-    "Browser"
+    "Productivity",
+    "Office"
   ],
   "require_gpu": false,
   "enabled": true,
   "image_type": "Container",
   "architecture": [
-    "amd64",
-    "arm64"
+    "amd64"
   ],
   "compatibility": [
     {
       "version": "1.16.x",
-      "image": "docker.cnb.cool/hug/docker/chromium:1.16.1-rolling-daily",
-      "uncompressed_size_mb": 2643,
+      "image": "docker.cnb.cool/hug/docker/only-office:1.16.1-rolling-daily",
+      "uncompressed_size_mb": 3611,
       "available_tags": [
         "develop",
         "1.16.0",
@@ -35,8 +35,8 @@
     },
     {
       "version": "1.17.0",
-      "image": "docker.cnb.cool/hug/docker/chromium:1.17.0-rolling-daily",
-      "uncompressed_size_mb": 2856,
+      "image": "docker.cnb.cool/hug/docker/only-office:1.17.0-rolling-daily",
+      "uncompressed_size_mb": 3633,
       "available_tags": [
         "develop",
         "1.17.0",
@@ -46,8 +46,8 @@
     },
     {
       "version": "1.18.0",
-      "image": "docker.cnb.cool/hug/docker/chromium:1.18.0-rolling-daily",
-      "uncompressed_size_mb": 2856,
+      "image": "docker.cnb.cool/hug/docker/only-office:1.18.0-rolling-daily",
+      "uncompressed_size_mb": 3633,
       "available_tags": [
         "develop"
       ]

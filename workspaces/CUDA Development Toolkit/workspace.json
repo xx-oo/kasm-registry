@@ -1,0 +1,45 @@
+{
+  "friendly_name": "CUDA Development Toolkit",
+  "image_src": "nvidia.png",
+  "description": "The CUDA Toolkit includes GPU-accelerated libraries, a compiler, development tools and the CUDA runtime on Ubuntu Focal.",
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "docker_registry": "https://docker.cnb.cool/",
+  "categories": [
+    "Desktop",
+    "Development"
+  ],
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.16.x",
+      "image": "docker.cnb.cool/hug/docker/core-cuda-focal:1.16.1-rolling-daily",
+      "uncompressed_size_mb": 11088,
+      "available_tags": [
+        "develop",
+        "1.16.0",
+        "1.16.0-rolling-weekly",
+        "1.16.0-rolling-daily",
+        "1.16.1",
+        "1.16.1-rolling-weekly",
+        "1.16.1-rolling-daily",
+        "1.17.0-rolling-weekly"
+      ]
+    },
+    {
+      "version": "1.18.0",
+      "image": "docker.cnb.cool/hug/docker/core-cuda-focal:1.18.0-rolling-daily",
+      "uncompressed_size_mb": 0,
+      "available_tags": [
+        "develop"
+      ]
+    }
+  ]
+}

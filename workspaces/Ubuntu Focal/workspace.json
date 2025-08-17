@@ -1,0 +1,46 @@
+{
+  "friendly_name": "Ubuntu Focal",
+  "image_src": "ubuntu.png",
+  "description": "Ubuntu is a Linux distribution based on Debian.",
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "docker_registry": "https://docker.cnb.cool/",
+  "categories": [
+    "Desktop",
+    "Productivity",
+    "Development"
+  ],
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.16.x",
+      "image": "docker.cnb.cool/hug/docker/ubuntu-focal-desktop:1.16.1-rolling-daily",
+      "uncompressed_size_mb": 4483,
+      "available_tags": [
+        "develop",
+        "1.16.0",
+        "1.16.0-rolling-weekly",
+        "1.16.0-rolling-daily",
+        "1.16.1",
+        "1.16.1-rolling-weekly",
+        "1.16.1-rolling-daily"
+      ]
+    },
+    {
+      "version": "1.18.0",
+      "image": "docker.cnb.cool/hug/docker/ubuntu-focal-desktop:1.18.0-rolling-daily",
+      "uncompressed_size_mb": 0,
+      "available_tags": [
+        "develop"
+      ]
+    }
+  ]
+}

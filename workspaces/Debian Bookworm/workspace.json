@@ -1,14 +1,16 @@
 {
-  "friendly_name": "Chromium",
-  "image_src": "chromium.png",
-  "description": "Chromium is a free and open-source browser, primarily developed and maintained by Google.",
+  "friendly_name": "Debian Bookworm",
+  "image_src": "debian.svg",
+  "description": "Debian is a Linux distribution composed of free and open-source software, developed by the community-supported Debian Project",
   "cores": 2,
   "memory": 2768,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
   "docker_registry": "https://docker.cnb.cool/",
   "categories": [
-    "Browser"
+    "Desktop",
+    "Productivity",
+    "Development"
   ],
   "require_gpu": false,
   "enabled": true,
@@ -20,8 +22,8 @@
   "compatibility": [
     {
       "version": "1.16.x",
-      "image": "docker.cnb.cool/hug/docker/chromium:1.16.1-rolling-daily",
-      "uncompressed_size_mb": 2643,
+      "image": "docker.cnb.cool/hug/docker/debian-bookworm-desktop:1.16.1-rolling-daily",
+      "uncompressed_size_mb": 5187,
       "available_tags": [
         "develop",
         "1.16.0",
@@ -35,8 +37,8 @@
     },
     {
       "version": "1.17.0",
-      "image": "docker.cnb.cool/hug/docker/chromium:1.17.0-rolling-daily",
-      "uncompressed_size_mb": 2856,
+      "image": "docker.cnb.cool/hug/docker/debian-bookworm-desktop:1.17.0-rolling-daily",
+      "uncompressed_size_mb": 8328,
       "available_tags": [
         "develop",
         "1.17.0",
@@ -46,8 +48,8 @@
     },
     {
       "version": "1.18.0",
-      "image": "docker.cnb.cool/hug/docker/chromium:1.18.0-rolling-daily",
-      "uncompressed_size_mb": 2856,
+      "image": "docker.cnb.cool/hug/docker/debian-bookworm-desktop:1.18.0-rolling-daily",
+      "uncompressed_size_mb": 8328,
       "available_tags": [
         "develop"
       ]

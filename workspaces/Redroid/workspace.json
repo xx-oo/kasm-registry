@@ -1,14 +1,17 @@
 {
-  "friendly_name": "Chromium",
-  "image_src": "chromium.png",
-  "description": "Chromium is a free and open-source browser, primarily developed and maintained by Google.",
+  "friendly_name": "Redroid",
+  "image_src": "android.svg",
+  "description": "redroid (Remote-Android) is a multi-arch, GPU enabled, Android in Cloud solution.",
   "cores": 2,
   "memory": 2768,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
   "docker_registry": "https://docker.cnb.cool/",
   "categories": [
-    "Browser"
+    "Development",
+    "Desktop",
+    "Productivity",
+    "Mobile"
   ],
   "require_gpu": false,
   "enabled": true,
@@ -20,8 +23,8 @@
   "compatibility": [
     {
       "version": "1.16.x",
-      "image": "docker.cnb.cool/hug/docker/chromium:1.16.1-rolling-daily",
-      "uncompressed_size_mb": 2643,
+      "image": "docker.cnb.cool/hug/docker/redroid:1.16.1-rolling-daily",
+      "uncompressed_size_mb": 3709,
       "available_tags": [
         "develop",
         "1.16.0",
@@ -35,8 +38,8 @@
     },
     {
       "version": "1.17.0",
-      "image": "docker.cnb.cool/hug/docker/chromium:1.17.0-rolling-daily",
-      "uncompressed_size_mb": 2856,
+      "image": "docker.cnb.cool/hug/docker/redroid:1.17.0-rolling-daily",
+      "uncompressed_size_mb": 7828,
       "available_tags": [
         "develop",
         "1.17.0",
@@ -46,8 +49,8 @@
     },
     {
       "version": "1.18.0",
-      "image": "docker.cnb.cool/hug/docker/chromium:1.18.0-rolling-daily",
-      "uncompressed_size_mb": 2856,
+      "image": "docker.cnb.cool/hug/docker/redroid:1.18.0-rolling-daily",
+      "uncompressed_size_mb": 3897,
       "available_tags": [
         "develop"
       ]
