@@ -55,5 +55,20 @@
         "develop"
       ]
     }
-  ]
+  ],
+  "run_config": {
+    "environment": {
+      "ANDROID_VERSION": "15.0.0",
+      "REDROID_GPU_GUEST_MODE": "guest",
+      "REDROID_FPS": "30",
+      "REDROID_WIDTH": "720",
+      "REDROID_HEIGHT": "1280",
+      "REDROID_DPI": "320",
+      "REDROID_SHOW_CONSOLE": "1",
+      "REDROID_DISABLE_AUTOSTART": "0",
+      "REDROID_DISABLE_HOST_CHECKS": "0"
+    },
+    "privileged": true
+  },
+  "exec_config": {}
 }

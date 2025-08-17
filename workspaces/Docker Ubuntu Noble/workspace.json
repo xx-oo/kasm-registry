@@ -54,5 +54,9 @@
         "develop"
       ]
     }
-  ]
+  ],
+  "run_config": {
+    "hostname": "kasm",
+    "privileged": true
+  }
 }

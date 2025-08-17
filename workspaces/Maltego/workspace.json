@@ -51,5 +51,7 @@
         "develop"
       ]
     }
-  ]
+  ],
+  "run_config": {},
+  "exec_config": {}
 }

@@ -52,5 +52,9 @@
         "develop"
       ]
     }
-  ]
+  ],
+  "run_config": {
+    "user": "root"
+  },
+  "exec_config": {}
 }

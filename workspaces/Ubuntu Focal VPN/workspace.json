@@ -42,5 +42,26 @@
         "develop"
       ]
     }
-  ]
+  ],
+  "run_config": {
+    "environment": {
+      "TAILSCALE_KEY": "",
+      "SHOW_VPN_STATUS": "1",
+      "SHOW_IP_STATUS": "1"
+    },
+    "sysctls": {
+      "net.ipv4.conf.all.src_valid_mark": 1
+    },
+    "dns": [
+      "8.8.8.8",
+      "8.8.4.4"
+    ]
+  },
+  "exec_config": {
+    "first_launch": {
+      "user": "root",
+      "privileged": true,
+      "cmd": "bash -c '/usr/bin/desktop_ready && /dockerstartup/start_vpn.sh'"
+    }
+  }
 }

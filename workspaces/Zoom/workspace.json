@@ -51,5 +51,10 @@
         "develop"
       ]
     }
-  ]
+  ],
+  "run_config": {
+    "security_opt": [
+      "seccomp=unconfined"
+    ]
+  }
 }

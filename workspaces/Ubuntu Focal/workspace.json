@@ -42,5 +42,8 @@
         "develop"
       ]
     }
-  ]
+  ],
+  "run_config": {
+    "hostname": "kasm"
+  }
 }

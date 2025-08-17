@@ -50,5 +50,11 @@
         "develop"
       ]
     }
-  ]
+  ],
+  "run_config": {
+    "hostname": "kasm",
+    "environment": {
+      "TERMINAL_ARGS": "--fullscreen --hide-borders --hide-menubar --zoom=-1 --hide-scrollbar"
+    }
+  }
 }
