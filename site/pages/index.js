@@ -43,7 +43,7 @@ export default function Home({ searchText }) {
   }
 
   let filteredworkspaces = workspaces && workspaces.workspaces && workspaces.workspaces.length > 0 ? [...workspaces.workspaces] : [];
-  filteredworkspaces = filteredworkspaces.filter((v) => v.compatibility.some((el) => el.version === version + '.'))
+  filteredworkspaces = filteredworkspaces.filter((v) => v.compatibility.some((el) => el.version.startsWith(version + '.'))
   const lowerSearch = searchText && searchText.toLowerCase();
   if (searchText && searchText !== "") {
     filteredworkspaces = filteredworkspaces.filter((i) => {
