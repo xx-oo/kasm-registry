@@ -1,0 +1,28 @@
+{
+  "description": "Xfce Terminal is a lightweight and easy to use terminal emulator application with many advanced features including drop down, tabs, unlimited scrolling, full colors, fonts, transparent backgrounds, and more.",
+  "docker_registry": "https://docker.cnb.cool/",
+  "name": "docker.cnb.cool/hug/docker/terminal:1.15.0",
+  "run_config": {
+    "hostname": "kasm",
+    "environment": {
+      "TERMINAL_ARGS": "--fullscreen --hide-borders --hide-menubar --zoom=-1 --hide-scrollbar"
+    }
+  },
+  "image_src": "terminal.png",
+  "friendly_name": "Terminal",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.15.x"
+  ],
+  "uncompressed_size_mb": 2300,
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container"
+}

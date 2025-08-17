@@ -1,0 +1,25 @@
+{
+  "description": "An open source voxel game engine.",
+  "docker_registry": "https://docker.cnb.cool/",
+  "name": "docker.cnb.cool/hug/docker/minetest:1.15.0",
+  "image_src": "minetest.svg",
+  "categories": [
+    "Games"
+  ],
+  "friendly_name": "Minetest",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.15.x"
+  ],
+  "uncompressed_size_mb": 2690,
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container"
+}

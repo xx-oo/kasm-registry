@@ -1,0 +1,25 @@
+{
+  "description": "VLC media player is a free and open-source, portable, cross-platform media player software, and streaming media server.",
+  "docker_registry": "https://docker.cnb.cool/",
+  "name": "docker.cnb.cool/hug/docker/vlc:1.15.0",
+  "image_src": "vlc.png",
+  "categories": [
+    "Multimedia"
+  ],
+  "friendly_name": "VLC",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.15.x"
+  ],
+  "uncompressed_size_mb": 2850,
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container"
+}

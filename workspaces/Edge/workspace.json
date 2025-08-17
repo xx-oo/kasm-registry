@@ -1,8 +1,8 @@
 {
-  "description": "Chromium is a free and open-source browser, primarily developed and maintained by Google.",
+  "description": "Microsoft Edge is a cross-platform web browser developed by Microsoft.",
   "docker_registry": "https://docker.cnb.cool/",
-  "image_src": "chromium.png",
-  "name": "docker.cnb.cool/hug/docker/chromium:1.15.0",
+  "image_src": "edge.png",
+  "name": "docker.cnb.cool/hug/docker/edge:1.15.0",
   "run_config": {
     "hostname": "kasm"
   },
@@ -17,15 +17,14 @@
   "categories": [
     "Browser"
   ],
-  "friendly_name": "Chromium",
+  "friendly_name": "Edge",
   "architecture": [
-    "amd64",
-    "arm64"
+    "amd64"
   ],
   "compatibility": [
     "1.15.x"
   ],
-  "uncompressed_size_mb": 2980,
+  "uncompressed_size_mb": 3240,
   "cores": 2,
   "memory": 2768,
   "gpu_count": 0,

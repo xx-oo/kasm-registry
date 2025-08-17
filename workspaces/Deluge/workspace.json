@@ -1,0 +1,25 @@
+{
+  "description": "A lightweight, Free Software, cross-platform BitTorrent client.",
+  "docker_registry": "https://docker.cnb.cool/",
+  "name": "docker.cnb.cool/hug/docker/deluge:1.15.0",
+  "image_src": "deluge.png",
+  "categories": [
+    "Productivity"
+  ],
+  "friendly_name": "Deluge",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.15.x"
+  ],
+  "uncompressed_size_mb": 2840,
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container"
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Blender is the Free and Open Source 3D creation suite. It supports the entirety of the 3D pipeline modeling, sculpting, rigging, 3D and 2D animation, simulation, rendering, compositing, motion tracking and video editing.",
+  "docker_registry": "https://docker.cnb.cool/",
+  "name": "docker.cnb.cool/hug/docker/blender:1.15.0",
+  "image_src": "blender.png",
+  "categories": [
+    "Multimedia",
+    "Development"
+  ],
+  "friendly_name": "Blender",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    "1.15.x"
+  ],
+  "uncompressed_size_mb": 3940,
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container"
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Telegram is a messaging app with a focus on speed and security.",
+  "docker_registry": "https://docker.cnb.cool/",
+  "name": "docker.cnb.cool/hug/docker/telegram:1.15.0",
+  "image_src": "telegram.png",
+  "categories": [
+    "Communication"
+  ],
+  "friendly_name": "Telegram",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.15.x"
+  ],
+  "uncompressed_size_mb": 1990,
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container"
+}

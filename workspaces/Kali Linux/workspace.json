@@ -1,0 +1,27 @@
+{
+  "description": "Kali Linux is a Debian-derived Linux distribution designed for digital forensics and penetration testing.",
+  "docker_registry": "https://docker.cnb.cool/",
+  "name": "docker.cnb.cool/hug/docker/kali-rolling-desktop:1.15.0",
+  "image_src": "kali.png",
+  "categories": [
+    "Desktop",
+    "Security",
+    "Development"
+  ],
+  "friendly_name": "Kali Linux",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.15.x"
+  ],
+  "uncompressed_size_mb": 8860,
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container"
+}

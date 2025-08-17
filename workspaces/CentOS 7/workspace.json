@@ -1,0 +1,28 @@
+{
+  "description": "CentOS is a Linux distribution that provides a free and open-source community-supported computing platform, functionally compatible with its upstream source, Red Hat Enterprise Linux.",
+  "docker_registry": "https://docker.cnb.cool/",
+  "name": "docker.cnb.cool/hug/docker/centos-7-desktop:1.15.0",
+  "run_config": {
+    "hostname": "kasm"
+  },
+  "image_src": "centos.png",
+  "categories": [
+    "Desktop",
+    "Productivity"
+  ],
+  "friendly_name": "CentOS 7",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    "1.15.x"
+  ],
+  "uncompressed_size_mb": 2890,
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container"
+}

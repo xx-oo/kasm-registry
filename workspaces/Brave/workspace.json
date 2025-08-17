@@ -1,8 +1,8 @@
 {
-  "description": "Chromium is a free and open-source browser, primarily developed and maintained by Google.",
+  "description": "The Brave browser is a fast, private and secure web browser.",
   "docker_registry": "https://docker.cnb.cool/",
-  "image_src": "chromium.png",
-  "name": "docker.cnb.cool/hug/docker/chromium:1.15.0",
+  "image_src": "brave.png",
+  "name": "docker.cnb.cool/hug/docker/brave:1.15.0",
   "run_config": {
     "hostname": "kasm"
   },
@@ -17,7 +17,7 @@
   "categories": [
     "Browser"
   ],
-  "friendly_name": "Chromium",
+  "friendly_name": "Brave",
   "architecture": [
     "amd64",
     "arm64"
@@ -25,7 +25,7 @@
   "compatibility": [
     "1.15.x"
   ],
-  "uncompressed_size_mb": 2980,
+  "uncompressed_size_mb": 3030,
   "cores": 2,
   "memory": 2768,
   "gpu_count": 0,

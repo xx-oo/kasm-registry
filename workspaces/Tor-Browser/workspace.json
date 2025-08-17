@@ -1,8 +1,8 @@
 {
-  "description": "Chromium is a free and open-source browser, primarily developed and maintained by Google.",
+  "description": "Tor is free and open-source software for enabling anonymous communication by directing Internet traffic through a free, worldwide, volunteer overlay network.",
   "docker_registry": "https://docker.cnb.cool/",
-  "image_src": "chromium.png",
-  "name": "docker.cnb.cool/hug/docker/chromium:1.15.0",
+  "image_src": "tor-browser.png",
+  "name": "docker.cnb.cool/hug/docker/tor-browser:1.15.0",
   "run_config": {
     "hostname": "kasm"
   },
@@ -15,9 +15,10 @@
     }
   },
   "categories": [
-    "Browser"
+    "Browser",
+    "Privacy"
   ],
-  "friendly_name": "Chromium",
+  "friendly_name": "Tor-Browser",
   "architecture": [
     "amd64",
     "arm64"
@@ -25,7 +26,7 @@
   "compatibility": [
     "1.15.x"
   ],
-  "uncompressed_size_mb": 2980,
+  "uncompressed_size_mb": 2970,
   "cores": 2,
   "memory": 2768,
   "gpu_count": 0,

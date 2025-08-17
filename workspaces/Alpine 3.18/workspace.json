@@ -1,0 +1,27 @@
+{
+  "description": "Alpine Linux is a Linux distribution designed to be small, simple and secure.",
+  "docker_registry": "https://docker.cnb.cool/",
+  "image_src": "alpine.svg",
+  "name": "docker.cnb.cool/hug/docker/alpine-318-desktop:1.15.0",
+  "categories": [
+    "Desktop",
+    "Productivity",
+    "Development"
+  ],
+  "friendly_name": "Alpine 3.18",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.15.x"
+  ],
+  "uncompressed_size_mb": 4690,
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container"
+}

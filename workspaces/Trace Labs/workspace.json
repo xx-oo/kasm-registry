@@ -1,0 +1,26 @@
+{
+  "description": "Trace Labs OSINT Image for Kasm Workspaces",
+  "docker_registry": "https://docker.cnb.cool/",
+  "image_src": "tracelabs.svg",
+  "name": "docker.cnb.cool/hug/docker/tracelabs:1.15.0",
+  "run_config": {},
+  "exec_config": {},
+  "categories": [
+    "Productivity"
+  ],
+  "friendly_name": "Trace Labs",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    "1.15.x"
+  ],
+  "uncompressed_size_mb": 13000,
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container"
+}

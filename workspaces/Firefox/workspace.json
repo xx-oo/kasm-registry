@@ -1,8 +1,8 @@
 {
-  "description": "Chromium is a free and open-source browser, primarily developed and maintained by Google.",
+  "description": "Firefox was created by Mozilla as a faster, more private alternative to browsers like Internet Explorer, and now Chrome.",
   "docker_registry": "https://docker.cnb.cool/",
-  "image_src": "chromium.png",
-  "name": "docker.cnb.cool/hug/docker/chromium:1.15.0",
+  "image_src": "firefox.png",
+  "name": "docker.cnb.cool/hug/docker/firefox:1.15.0",
   "run_config": {
     "hostname": "kasm"
   },
@@ -17,7 +17,7 @@
   "categories": [
     "Browser"
   ],
-  "friendly_name": "Chromium",
+  "friendly_name": "Firefox",
   "architecture": [
     "amd64",
     "arm64"

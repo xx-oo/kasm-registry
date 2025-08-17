@@ -1,0 +1,25 @@
+{
+  "description": "Sublime Text is a sophisticated text editor for code, markup and prose.",
+  "docker_registry": "https://docker.cnb.cool/",
+  "name": "docker.cnb.cool/hug/docker/sublime-text:1.15.0",
+  "image_src": "sublime-text.png",
+  "categories": [
+    "Development"
+  ],
+  "friendly_name": "Sublime Text",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.15.x"
+  ],
+  "uncompressed_size_mb": 2770,
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container"
+}

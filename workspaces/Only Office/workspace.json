@@ -1,0 +1,25 @@
+{
+  "description": "ONLYOFFICE offers a secure online office suite highly compatible with MS Office formats.",
+  "docker_registry": "https://docker.cnb.cool/",
+  "name": "docker.cnb.cool/hug/docker/only-office:1.15.0",
+  "image_src": "only-office.png",
+  "categories": [
+    "Productivity",
+    "Office"
+  ],
+  "friendly_name": "Only Office",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    "1.15.x"
+  ],
+  "uncompressed_size_mb": 3610,
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container"
+}

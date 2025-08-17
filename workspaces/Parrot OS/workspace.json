@@ -1,0 +1,30 @@
+{
+  "description": "Parrot OS is a Linux distribution based on Debian with a focus on security, privacy, and development.",
+  "docker_registry": "https://docker.cnb.cool/",
+  "image_src": "parrotos.svg",
+  "name": "docker.cnb.cool/hug/docker/parrotos-6-desktop:1.15.0",
+  "run_config": {
+    "hostname": "kasm"
+  },
+  "categories": [
+    "Desktop",
+    "Development",
+    "Security"
+  ],
+  "friendly_name": "Parrot OS",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.15.x"
+  ],
+  "uncompressed_size_mb": 15700,
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container"
+}

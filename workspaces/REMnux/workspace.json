@@ -1,0 +1,26 @@
+{
+  "description": "REMnux is a Linux toolkit for reverse-engineering and analyzing malicious software.",
+  "docker_registry": "https://docker.cnb.cool/",
+  "name": "docker.cnb.cool/hug/docker/remnux-focal-desktop:1.15.0",
+  "image_src": "remnux.png",
+  "categories": [
+    "Desktop",
+    "Security",
+    "Development"
+  ],
+  "friendly_name": "REMnux",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    "1.15.x"
+  ],
+  "uncompressed_size_mb": 12800,
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container"
+}

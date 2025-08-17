@@ -1,0 +1,25 @@
+{
+  "description": "qBittorrent aims to provide an open-source software alternative to µTorrent.",
+  "docker_registry": "https://docker.cnb.cool/",
+  "name": "docker.cnb.cool/hug/docker/qbittorrent:1.15.0",
+  "image_src": "qbittorrent.png",
+  "categories": [
+    "Productivity"
+  ],
+  "friendly_name": "qBittorrent",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.15.x"
+  ],
+  "uncompressed_size_mb": 2780,
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container"
+}

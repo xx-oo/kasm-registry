@@ -1,0 +1,25 @@
+{
+  "description": "Unity Hub manages multiple installations of Unity Editor, the world’s most popular development platform for creating 2D and 3D multiplatform games and interactive experiences.",
+  "docker_registry": "https://docker.cnb.cool/",
+  "name": "docker.cnb.cool/hug/docker/unityhub:1.15.0",
+  "image_src": "unityhub.png",
+  "categories": [
+    "Multimedia",
+    "Development"
+  ],
+  "friendly_name": "Unity Hub",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    "1.15.x"
+  ],
+  "uncompressed_size_mb": 3590,
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container"
+}

@@ -1,0 +1,44 @@
+{
+  "description": "redroid (Remote-Android) is a multi-arch, GPU enabled, Android in Cloud solution.",
+  "docker_registry": "https://docker.cnb.cool/",
+  "image_src": "android.svg",
+  "name": "docker.cnb.cool/hug/docker/redroid:develop",
+  "run_config": {
+    "environment": {
+      "ANDROID_VERSION": "13.0.0",
+      "REDROID_GPU_GUEST_MODE": "guest",
+      "REDROID_FPS": "30",
+      "REDROID_WIDTH": "720",
+      "REDROID_HEIGHT": "1280",
+      "REDROID_DPI": "320",
+      "REDROID_SHOW_CONSOLE": "1",
+      "REDROID_DISABLE_AUTOSTART": "0",
+      "REDROID_DISABLE_HOST_CHECKS": "0"
+    },
+    "privileged": true
+  },
+  "exec_config": {},
+  "categories": [
+    "Development",
+    "Desktop",
+    "Productivity",
+    "Mobile"
+  ],
+  "friendly_name": "Redroid",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.13.x",
+    "1.14.x"
+  ],
+  "uncompressed_size_mb": 7540,
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container"
+}

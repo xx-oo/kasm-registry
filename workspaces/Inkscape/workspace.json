@@ -1,0 +1,25 @@
+{
+  "description": "A free and open-source vector graphics editor used to create vector images, primarily in Scalable Vector Graphics (SVG) format.",
+  "docker_registry": "https://docker.cnb.cool/",
+  "name": "docker.cnb.cool/hug/docker/inkscape:1.15.0",
+  "image_src": "inkscape.png",
+  "categories": [
+    "Multimedia"
+  ],
+  "friendly_name": "Inkscape",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.15.x"
+  ],
+  "uncompressed_size_mb": 3000,
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container"
+}

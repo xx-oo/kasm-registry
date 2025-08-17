@@ -1,0 +1,29 @@
+{
+  "description": "Ubuntu desktop with Google Chrome and Forensic OSINT Web Capture Tool",
+  "docker_registry": "https://docker.cnb.cool/",
+  "image_src": "forensic-osint.png",
+  "name": "docker.cnb.cool/hug/docker/forensic-osint:develop",
+  "run_config": {
+    "hostname": "kasm"
+  },
+  "categories": [
+    "Productivity"
+  ],
+  "friendly_name": "Forensic OSINT",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    "1.13.x",
+    "1.14.x",
+    "1.15.x"
+  ],
+  "uncompressed_size_mb": 5450,
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container"
+}

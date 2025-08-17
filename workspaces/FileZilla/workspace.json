@@ -1,0 +1,25 @@
+{
+  "description": "A free and open-source, cross-platform FTP/FTPS application.",
+  "docker_registry": "https://docker.cnb.cool/",
+  "name": "docker.cnb.cool/hug/docker/filezilla:1.15.0",
+  "image_src": "filezilla.png",
+  "categories": [
+    "Productivity"
+  ],
+  "friendly_name": "FileZilla",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.15.x"
+  ],
+  "uncompressed_size_mb": 2710,
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container"
+}

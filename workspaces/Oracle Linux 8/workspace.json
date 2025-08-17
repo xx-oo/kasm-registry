@@ -1,0 +1,27 @@
+{
+  "description": "Oracle Linux is a highly performant and secure operating system that provides a 100% application binary compatible alternative to RHEL and CentOS.",
+  "docker_registry": "https://docker.cnb.cool/",
+  "name": "docker.cnb.cool/hug/docker/oracle-8-desktop:1.15.0",
+  "image_src": "oracle-linux.png",
+  "categories": [
+    "Desktop",
+    "Productivity",
+    "Development"
+  ],
+  "friendly_name": "Oracle Linux 8",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.15.x"
+  ],
+  "uncompressed_size_mb": 7660,
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container"
+}

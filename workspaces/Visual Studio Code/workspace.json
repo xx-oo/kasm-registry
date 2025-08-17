@@ -1,0 +1,25 @@
+{
+  "description": "Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.",
+  "docker_registry": "https://docker.cnb.cool/",
+  "name": "docker.cnb.cool/hug/docker/vs-code:1.15.0",
+  "image_src": "vs-code.png",
+  "categories": [
+    "Development"
+  ],
+  "friendly_name": "Visual Studio Code",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.15.x"
+  ],
+  "uncompressed_size_mb": 3060,
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container"
+}

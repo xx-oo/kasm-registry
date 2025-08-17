@@ -1,0 +1,25 @@
+{
+  "description": "SuperTuxKart is a 3D open-source arcade racer with a variety characters, tracks, and modes to play.",
+  "docker_registry": "https://docker.cnb.cool/",
+  "name": "docker.cnb.cool/hug/docker/super-tux-kart:1.15.0",
+  "image_src": "super-tux-kart.png",
+  "categories": [
+    "Games"
+  ],
+  "friendly_name": "SuperTuxKart",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.15.x"
+  ],
+  "uncompressed_size_mb": 4060,
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container"
+}

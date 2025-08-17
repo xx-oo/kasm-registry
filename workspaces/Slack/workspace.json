@@ -1,0 +1,27 @@
+{
+  "description": "Slack is a new way to communicate with your team. It's faster, better organized, and more secure than email.",
+  "docker_registry": "https://docker.cnb.cool/",
+  "name": "docker.cnb.cool/hug/docker/slack:1.15.0",
+  "image_src": "slack.svg",
+  "categories": [
+    "Productivity",
+    "Chat",
+    "Communication"
+  ],
+  "friendly_name": "Slack",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    "1.14.x",
+    "1.15.x"
+  ],
+  "uncompressed_size_mb": 3370,
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container"
+}

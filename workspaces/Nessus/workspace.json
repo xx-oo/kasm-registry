@@ -1,0 +1,31 @@
+{
+  "description": "Nessus is a proprietary vulnerability scanner developed by Tenable, Inc.",
+  "docker_registry": "https://docker.cnb.cool/",
+  "image_src": "nessus.svg",
+  "name": "docker.cnb.cool/hug/docker/nessus:1.15.0",
+  "run_config": {
+    "user": "root"
+  },
+  "exec_config": {},
+  "categories": [
+    "Security"
+  ],
+  "friendly_name": "Nessus",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.13.x",
+    "1.14.x",
+    "1.15.x"
+  ],
+  "uncompressed_size_mb": 6630,
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container"
+}
